@@ -12,7 +12,7 @@ class DataProvider: DataProtocol {
     
     static let shared: DataProtocol = DataProvider()
     
-    fileprivate static let url: URL = URL(string: "http://172.16.1.14:3000")!
+    fileprivate static let url: URL = URL(string: "http://192.168.0.11:3000")! //Server address
     
     fileprivate var socket: SocketIOClient
     
